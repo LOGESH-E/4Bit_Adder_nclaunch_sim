@@ -118,7 +118,7 @@ or
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
-![Screenshot (31)](https://github.com/user-attachments/assets/c53e909c-a4a5-4ed9-848b-3c87fc54e46f)
+![Screenshot (30)](https://github.com/user-attachments/assets/1ede2f57-0912-4eca-bd5f-5f192fe76c7e)
 
 ### Fig 7: Nclaunch Window
 
@@ -139,7 +139,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![Screenshot (34)](https://github.com/user-attachments/assets/be151245-fd5e-4d1c-a146-98fed46cb82b)
+![Screenshot (31)](https://github.com/user-attachments/assets/d8c933b3-4d92-488e-ac42-0c62f68cd2cd)
 
 ### Fig 8: Compiled database in worklib
 
@@ -177,6 +177,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+
+![Screenshot (34)](https://github.com/user-attachments/assets/8e5ff33f-6b7f-43bb-9cc9-c2b4d676cf74)
 
 ### Fig 10: Design Browser window for simulation
 
