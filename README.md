@@ -111,7 +111,7 @@ endmodule
       
 	After this you can see the window like below 
 
-![Screenshot (23)](https://github.com/user-attachments/assets/55240b6a-7a4f-4200-8c8d-d8cc9e85fbc9)
+![Screenshot (39)](https://github.com/user-attachments/assets/07a09f77-3961-4d37-8e8c-3ab3cd73dee4)
 
 ### Fig 3:Invoke the Cadence Environment
 
@@ -125,7 +125,7 @@ or
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
-![Screenshot (24)](https://github.com/user-attachments/assets/8f8c3949-ddc5-460d-9360-8c90af55727c)
+![Screenshot (40)](https://github.com/user-attachments/assets/6e5de17e-678f-4cef-a338-633680f28a78)
 
 ### Fig 4:Setting Multi-step simulation
 
@@ -133,7 +133,7 @@ or
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
-![Screenshot (25)](https://github.com/user-attachments/assets/63992412-1a7d-446c-9f17-b81019372443)
+![Screenshot (42)](https://github.com/user-attachments/assets/5d4f7eb8-6978-4df0-ada5-42c2a8f5ab54)
 
 ### Fig 5:cds.lib file Creation
 
@@ -157,7 +157,7 @@ or
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
-![Screenshot (30)](https://github.com/user-attachments/assets/1ede2f57-0912-4eca-bd5f-5f192fe76c7e)
+![Screenshot (44)](https://github.com/user-attachments/assets/ef0c9c98-143f-4b99-8a6c-937f8debe007)
 
 ### Fig 7: Nclaunch Window
 
@@ -178,7 +178,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![Screenshot (31)](https://github.com/user-attachments/assets/d8c933b3-4d92-488e-ac42-0c62f68cd2cd)
+![Screenshot (45)](https://github.com/user-attachments/assets/3c86b314-a500-4b60-a46f-8b48a07f7a84)
 
 ### Fig 8: Compiled database in worklib
 
@@ -203,7 +203,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
-![Screenshot (35)](https://github.com/user-attachments/assets/75a10d96-c582-4604-b8fd-78578522f992)
+![Screenshot (45)](https://github.com/user-attachments/assets/7a49951e-f0de-48e7-834d-7e9bcb8e18fe)
 
 ### Fig 9: Elaboration Launch Option
 
@@ -217,15 +217,15 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	Steps for simulation – Run the simulation command with simulator options
 
-![Screenshot (34)](https://github.com/user-attachments/assets/8e5ff33f-6b7f-43bb-9cc9-c2b4d676cf74)
+![Screenshot (46)](https://github.com/user-attachments/assets/90efbe04-e93d-4af2-9cca-f777a1eda141)
 
 ### Fig 10: Design Browser window for simulation
 
-![Screenshot (35)](https://github.com/user-attachments/assets/0ceb044a-fc06-490c-ac02-476f07f9e5a7)
+![Uploading Screenshot (47).png…]()
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
 
-![Screenshot (37)](https://github.com/user-attachments/assets/07b1ff4c-e63e-47c6-b4d9-5ff84ba0f998)
+![Uploading Screenshot (48).png…]()
 
 ### Fig 12: Simulation Waveform Window
 
