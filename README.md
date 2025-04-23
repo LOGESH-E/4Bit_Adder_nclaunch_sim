@@ -57,8 +57,22 @@ Note : File name should be with HDL Extension
 
 •	fa_4bit_test.v → Test bench 
 
-*/Program to design 4 bit adder by instantiating 1 bit Full adder.also add test bench program */
-Developed by: Register Number*/
+```
+`timescale 1ns/1ns
+module counter(clk,m,rst,count);
+input clk,m,rst;
+output reg [3:0] count;
+always@(posedge clk or negedge rst)
+begin
+if (!rst)
+count=0;
+else if(m)
+count=count+1;
+else
+count=count-1;
+end
+endmodule
+```
 
 ## Functional Simulation: 
 
@@ -182,10 +196,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 ### Fig 10: Design Browser window for simulation
 
-
+![Screenshot (35)](https://github.com/user-attachments/assets/0ceb044a-fc06-490c-ac02-476f07f9e5a7)
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
-![Screenshot (35)](https://github.com/user-attachments/assets/0ceb044a-fc06-490c-ac02-476f07f9e5a7)
 
 ![Screenshot (37)](https://github.com/user-attachments/assets/07b1ff4c-e63e-47c6-b4d9-5ff84ba0f998)
 
